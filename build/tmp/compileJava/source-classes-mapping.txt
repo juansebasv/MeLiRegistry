@@ -1,0 +1,2 @@
+com/meli/registry/RegistryApplication.java
+ com.meli.registry.RegistryApplication
