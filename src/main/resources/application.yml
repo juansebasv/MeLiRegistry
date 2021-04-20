@@ -6,9 +6,10 @@ server:
 eureka:
   instance:
     hostname: meliapp-registry.herokuapp.com
+    #hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: https://meliapp-registry.herokuapp.com/eureka/
+      #defaultZone: http://admin:admin@localhost:8099/eureka/
+      defaultZone: https://admin:admin@meliapp-registry.herokuapp.com/eureka/
