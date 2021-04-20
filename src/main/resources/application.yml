@@ -6,7 +6,11 @@ server:
 eureka:
   instance:
     hostname: meliapp-registry.herokuapp.com
+    leaseRenewalIntervalInSeconds: 30
     #hostname: localhost
+  server:
+    enable-self-preservation: true
+    renewalPercentThreshold: 0.49
   client:
     registerWithEureka: false
     fetchRegistry: false
