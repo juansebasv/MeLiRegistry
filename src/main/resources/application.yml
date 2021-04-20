@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: meliapp-registry
+server:
+  port: 8099
+eureka:
+  instance:
+    hostname: meliapp-registry.herokuapp.com
+    #hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      #defaultZone: http://admin:admin@localhost:8099/eureka/
+      defaultZone: https://admin:admin@meliapp-registry.herokuapp.com/eureka/
