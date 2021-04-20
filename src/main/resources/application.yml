@@ -17,3 +17,4 @@ eureka:
     serviceUrl:
       #defaultZone: http://admin:admin@localhost:8099/eureka/
       defaultZone: https://admin:admin@meliapp-registry.herokuapp.com/eureka/
+      
