@@ -9,7 +9,7 @@ eureka:
     leaseRenewalIntervalInSeconds: 30
     #hostname: localhost
   server:
-    enableSelfPreservation: false
+    enableSelfPreservation: true
     renewalPercentThreshold: 0.49
   client:
     registerWithEureka: false
